@@ -1,12 +1,10 @@
 import { pageTitle } from 'ember-page-title';
-import { WelcomePage } from 'ember-welcome-page';
+import RenderComponent from 'ember-render-component-test/components/render-component.gjs';
 
 <template>
   {{pageTitle "RenderComponentTest"}}
 
   {{outlet}}
 
-  {{! The following component displays Ember's default welcome message. }}
-  <WelcomePage />
-  {{! Feel free to remove this! }}
+  <RenderComponent />
 </template>
